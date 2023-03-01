@@ -1,62 +1,37 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <link rel="shortcut icon" href="https://jovian-careers-website.jgiannini.repl.co/static/favicon.ico">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>Jovian Careers</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
       <style>
-        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
-        h1{
-          font-size: 45px;
-          font-family: 'Roboto', sans-serif;
-          font-weight: normal;
-          color: rgb(100,100,100);
-          text-align:center;
-        }
-        h2{
-          font-family: 'Roboto', sans-serif;
-          font-size: 32px;
-          color: rgb(100, 100, 100);
-          text-align: center;
-          font-weight: 400;
-        }
-        p{
-          font-family: 'Roboto', sans-serif;
-          color: #3D3D3D;
-          font-size:18px;
-          line-height:25px;
-        }
         #banner{
-          width:100%;
           height: 360px;
+          width: 100%;
           object-fit: cover;
-        }
-        #container{
-          max-width: 1200px;
-          margin:0 auto;
-        }
-        .button{
-          text-align:center;
-        }
-        .button button{
-          padding: 10px;
-          font-family:'Roboto', sans-serif;
-          font-size:18px;
-        }
-        .bodytext{
         }
       </style>
     </head>
+  
     <body>
-      <div id="container">
-        <h1>Jovian Careers</h1>
-        <img id="banner" src="https://jovian-careers-website.jgiannini.repl.co/static/banner.jpg"> 
-        <h2>About Jovian</h2>
-        <p class="bodytext">This generator uses a dictionary of Latin words to construct passages of Lorem Ipsum text that meet your desired length. The sentence and paragraph durations and punctuation dispersal are calculated using Gaussian distribution, based on statistical analysis of real world texts. This ensures that the generated Lorem Ipsum text is unique, free of repetition and also resembles readable text as much as possible.</p>
-        <h2>Open Positions</h2>
-        <p class="bodytext">TO DO - SHOW JOBs</p>
-        <div class="button">
-          <button>Contact Us</button>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1 class="text-center mt-4 mb-4">Jovian Careers</h1>
+            <img class="img-fluid" id="banner" src="https://jovian-careers-website.jgiannini.repl.co/static/banner.jpg"> 
+            <h2 class="text-center mt-4 mb-4">About Jovian</h2>
+            <p class="lead">This generator uses a dictionary of Latin words to construct passages of Lorem Ipsum text that meet your desired length. The sentence and paragraph durations and punctuation dispersal are calculated using Gaussian distribution, based on statistical analysis of real world texts. This ensures that the generated Lorem Ipsum text is unique, free of repetition and also resembles readable text as much as possible.</p>
+            <h2 class="text-center mt-4 mb-4">Open Positions</h2>
+            <p class="lead">TO DO - SHOW JOBs</p>
+            <div class="d-grid gap-2 col-6 col-lg-2 mx-auto">
+              <button class="btn btn-primary btn-lg">Contact       Us</button>
+            </div>
+            <p class="text-center mt-4">Copyright 2023, Jovian</p>
+          </div>
         </div>
       </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
     </body>
 </html>
