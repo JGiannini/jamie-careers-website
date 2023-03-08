@@ -1,6 +1,7 @@
 from flask import Flask, render_template, jsonify #jsonify converts to JSON for us
 
-app = Flask(__name__)
+app = Flask(__name__) #Use this variable name as part of our start command on Render.com
+
 #This is a Python dictionary:
 JOBS = [{
   'id': 1,
