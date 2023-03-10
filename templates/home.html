@@ -23,29 +23,31 @@
         <div class="col-12">
           <h1 class="text-center mt-4 mb-4">{{company_name}} Careers</h1>
           <h2 class="text-center mt-4 mb-4">About {{company_name}}</h2>
-       <div class="row" style="margin-bottom:16px;">   
+        </div>
+      </div>
+      <div class="row" style="margin-bottom:16px;">   
           <div class="col-md-6">
-          <p class="lead">
-            This generator uses a dictionary of Latin words to construct passages of Lorem Ipsum text that meet your desired length. The sentence and paragraph durations and punctuation dispersal are calculated using Gaussian distribution,
-            based on statistical analysis of real world texts. This ensures that the generated Lorem Ipsum text is unique, free of repetition and also resembles readable text as much as possible.
-          </p>
+            <p class="lead">
+              This generator uses a dictionary of Latin words to construct passages of Lorem Ipsum text that meet your desired length. The sentence and paragraph durations and punctuation dispersal are calculated using Gaussian distribution,
+              based on statistical analysis of real world texts. This ensures that the generated Lorem Ipsum text is unique, free of repetition and also resembles readable text as much as possible.
+            </p>
           </div>
          <div class="d-none d-md-block col-md-6">
           <img class="img-fluid object-fit-cover" src="/static/person_working.jpg" style="height:320px;border-radius:4px;">
-        </div     
-      </div>
-        </div>
+         </div>     
       </div>
       <div class="row">
-        <div class="col">
+        <div class="col-12">
           <h2 class="text-center mt-4 mb-4">Job Openings</h2>
-          <lead>
-            {% for job_get in jobs %} {% include 'jobitem.html' %} {% endfor %}
-          </lead>
         </div>
       </div>
+      
+        <lead>
+          {% for job_get in jobs %} {% include 'jobitem.html' %} {% endfor %}
+        </lead>
+  
       <div class="row">
-        <div class="d-grid col-4 col-md-4 col-lg-2 mt-5 mx-auto">
+        <div class="d-grid col-6 col-md-4 col-lg-2 mt-5 mx-auto col-sm-4">
           <button class="btn btn-primary btn-lg">Contact Us</button>
         </div>
       </div>
